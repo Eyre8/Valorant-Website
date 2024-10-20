@@ -1,0 +1,22 @@
+body {
+    padding-top: 60px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(agent-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: bold;
+    color: #FD4556;
+    font-size: 100px;
+}
+
+img {
+    width: 200px;
+}

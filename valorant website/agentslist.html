@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant Agents</title>
+    <link rel="stylesheet" href="agentslist.css">
+</head>
+<body>
+    <div id="top-bar">
+        <img class= "valorant" src="valorant.png">
+        <h1>Valorant Agents</h1>
+        <button id="Guns" onclick="navigateToPage()">Bundles</button>
+        <button id="Maps" onclick="navigateToPage()">Maps</button>
+        <button id="Ranks" onclick="navigateToPage()">Ranks</button>
+    </div>
+    <div id="agents-container"></div>
+    <!-- Modal -->
+<div id="agent-modal" class="modal">
+    <div class="modal-content">
+        <span id="close-btn">&times;</span>
+        <div id="right"> 
+            <img id="agent-image" src="" alt="Agent Image" />
+            <h2 id="agent-name"></h2>
+            <div id="agent-role" class="agent-role">
+            <img id="role-icon" src="" alt="Role Icon" />
+            <span id="role-name"></span>
+        </div>
+        <p id="agent-description"></p>
+        <button id="share-btn">Share</button>
+        
+        
+        <div id="abilities-container"></div>
+    </div>
+</div>
+
+
+    <script src="agentslist.js"></script>
+</body>
+</html>
